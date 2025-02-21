@@ -1,12 +1,18 @@
 .good{
-    font-family:'Courier New', Courier, monospace;
-    color: rgb(237, 237, 237);
-    background-color: rgb(214, 211, 211);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(191, 198, 182);
+    background-color:rgb(245, 245, 245);
 }
 #nice{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h2{
-    background: red;
+    color: rgb(214, 210, 210);
 }
-/* this is a comment in CSS */
+.image-container img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.2);
+}
